@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Saludables</title>
+    <link rel="stylesheet" href="calendario.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="recetas.css">
+</head>
+<body>
+    <div class="page recetas-page">
+        <header class="header">
+            <div class="heart-logo">❤️</div>
+            <div class="app-name">App Salud</div>
+        </header>
+
+        <div class="content">
+            <h2 class="page-title">Recetas Saludables</h2>
+            <p>¡Aquí encontrarás ideas deliciosas y saludables!</p>
+
+            </div>
+
+        <footer class="bottom-nav">
+            <button class="nav-item" onclick="navigateTo('index.html')">
+                <div class="nav-icon-container">
+                    <i class="fas fa-home"></i>
+                </div>
+            </button>
+            <button class="nav-item" onclick="navigateTo('calendario.html')">
+                <div class="nav-icon-container">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+            </button>
+            <button class="nav-item" onclick="navigateTo('hidratacion.html')">
+                <div class="nav-icon-container">
+                    <i class="fas fa-tint"></i>
+                </div>
+            </button>
+            <button class="nav-item active" onclick="navigateTo('recetas.html')">
+                <div class="nav-icon-container">
+                    <i class="fas fa-utensils"></i>
+                </div>
+            </button>
+        </footer>
+    </div>
+    <script>
+        function navigateTo(page) {
+            console.log(`Navegando a: ${page}`);
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>

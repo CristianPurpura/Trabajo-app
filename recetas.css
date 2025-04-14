@@ -1,0 +1,14 @@
+
+.recetas-page .content {
+    align-items: flex-start; 
+}
+
+.page-title {
+    color: #E91E63; 
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 100%; 
+    text-align: center; 
+}
+
